@@ -1,9 +1,9 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import './Form.css';
 
 const countries = {
-  India: ['Delhi', 'Mumbai', 'Chennai'],
+  India: ['Delhi', 'Mohali', 'Chennai'],
   USA: ['New York', 'Los Angeles', 'Chicago'],
   Canada: ['Toronto', 'Vancouver', 'Montreal']
 };
